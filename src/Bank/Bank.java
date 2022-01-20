@@ -30,6 +30,5 @@ public class Bank {
         alfha.office.getTerminalQueue();
         alfha.office.getTerminalQueue();
 
-
     }
 }
