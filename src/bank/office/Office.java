@@ -1,8 +1,8 @@
-package Bank.Office;
+package bank.office;
 
-import Bank.Office.CooperatorBank.Cooperator;
-import Bank.Office.OtdelCredit.Credit;
-import Bank.Office.OtdelDebitOpiration.DebitOperation;
+import bank.office.CooperatorBank.Cooperator;
+import bank.office.OtdelCredit.Credit;
+import bank.office.OtdelDebitOpiration.DebitOperation;
 
 public class Office  {
     private int cashBox;

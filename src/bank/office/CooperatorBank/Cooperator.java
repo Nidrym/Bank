@@ -1,4 +1,4 @@
-package Bank.Office.CooperatorBank;
+package bank.office.CooperatorBank;
 
 public class Cooperator {
     private int workTime;

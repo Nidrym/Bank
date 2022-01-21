@@ -1,4 +1,4 @@
-package Bank.Bankomat;
+package bank.bankomat;
 
 public class Bankomat{
     private boolean cartRead;

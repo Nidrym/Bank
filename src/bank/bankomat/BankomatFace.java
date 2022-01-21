@@ -1,4 +1,4 @@
-package Bank.Bankomat;
+package bank.bankomat;
 
 public class BankomatFace {
 private String scannerFace;

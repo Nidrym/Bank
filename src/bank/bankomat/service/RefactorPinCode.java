@@ -1,4 +1,4 @@
-package Bank.Bankomat.Service;
+package bank.bankomat.service;
 
 public class RefactorPinCode {
     private int pinCode = 1234;

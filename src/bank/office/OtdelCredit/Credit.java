@@ -1,6 +1,6 @@
-package Bank.Office.OtdelCredit;
+package bank.office.OtdelCredit;
 
-import Bank.Office.CooperatorBank.Cooperator;
+import bank.office.CooperatorBank.Cooperator;
 
 public class Credit {
     private int openWork;

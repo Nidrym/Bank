@@ -1,7 +1,6 @@
-package Bank.Office.OtdelDebitOpiration;
+package bank.office.OtdelDebitOpiration;
 
-import Bank.Office.CooperatorBank.Cooperator;
-import Bank.Office.Office;
+import bank.office.CooperatorBank.Cooperator;
 
 public class DebitOperation {
     private byte openWork;

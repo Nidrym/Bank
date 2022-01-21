@@ -1,6 +1,6 @@
-package Bank.Bankomat.Service;
+package bank.bankomat.service;
 
-public class PayServiceAll {
+public class PayServiceAll implements IService{
     private String organization;
     private int personalAccount; //лицивой счет
     private float sum;
@@ -30,5 +30,10 @@ public class PayServiceAll {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public void setNumber(int number) {
+
     }
 }

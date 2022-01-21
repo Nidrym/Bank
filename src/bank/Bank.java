@@ -1,8 +1,8 @@
-package Bank;
+package bank;
 
-import Bank.Office.CooperatorBank.Cooperator;
-import Bank.Office.Office;
-import Bank.Bankomat.Bankomat;
+import bank.office.CooperatorBank.Cooperator;
+import bank.office.Office;
+import bank.bankomat.Bankomat;
 
 public class Bank {
     private String name;
@@ -17,8 +17,7 @@ public class Bank {
     }
 
     public static void main(String[] args) {
-        Bank alfha = new Bank("Bank") {
-        };
+        Bank alfha = buildBank();
 
         int c = alfha.atm.getCash();   //в круглых скобках параметр
 
@@ -30,5 +29,10 @@ public class Bank {
         alfha.office.getTerminalQueue();
         alfha.office.getTerminalQueue();
 
+    }
+
+    private static Bank buildBank() {
+        Bank alfha = new Bank("alfhaBank");
+        return alfha;
     }
 }

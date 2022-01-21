@@ -1,4 +1,4 @@
-package Bank.Bankomat;
+package bank.bankomat;
 
 public class BankomatInCash {
     private int cash; //прием валюты

@@ -1,6 +1,6 @@
-package Bank.Bankomat.Service;
+package bank.bankomat.service;
 
-public class PayMobile {
+public class PayMobile implements IService {
 
     private int number;
     private int sum;
